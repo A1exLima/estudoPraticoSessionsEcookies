@@ -1,0 +1,52 @@
+<%- include('../views/index'); %>
+
+            <link rel="stylesheet" href="/stylesheets/cadastro.css">
+
+            <section>
+
+                <h1>CADASTRAR USUÁRIO</h1>
+
+                <% if(typeof erros !== "undefined"){ %>
+
+                    <ul class="error-msg">
+                        <% for(let erro in erros) { %>
+                            <li> 
+                                 
+                                <%= erros[erro].msg %> 
+                            </li>
+                        <% } %>
+                    </ul>
+
+                <% } %> 
+
+                <% if(flagImg == 1) { %>
+
+                    <p>Imagem não enviada!</p>
+
+                <% } %>
+
+                <!-- Warning: Atributo Enctype para processamento de arquivo-->
+                <form action="/cadastro" method="post" enctype="multipart/form-data">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" value="<%=locals.old && old.nome%>">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" value="<%=locals.old && old.email%>">
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                    
+                    
+                    <label class="inputFile" form="imagemUsuario">
+                        <span class="inputFile-custom"></span>
+                        <input type="file" id="imagemUsuario" name="imagemUsuario">
+                    </label>
+
+                    <button type="submit">CADASTRAR</button>
+
+                </form>
+
+            </section>
+        </main>
+    <body>
+</html>

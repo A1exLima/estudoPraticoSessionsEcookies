@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Alex da Silva Lima",
+        "email": "asda@me.com",
+        "senha": "123456",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1663618096335.jpg"
+    },
+    {
+        "nome": "Alex da Silva Lima",
+        "email": "asda@me.com",
+        "senha": "1234567890",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1663645891953.jpeg"
+    },
+    {
+        "nome": "Andressa da Silva Lima",
+        "email": "andressa@me.com",
+        "senha": "123456",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664378038224.jpeg"
+    }
+]

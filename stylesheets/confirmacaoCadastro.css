@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    border: 10px;
+    color:rgb(64, 68, 72);
+}
+
+img{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: rgb(64, 68, 72) 2px 10px 20px, rgba(0, 0, 0, 0.23) 2px 6px 6px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(64, 68, 72);;
+}

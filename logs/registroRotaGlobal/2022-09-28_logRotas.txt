@@ -1,0 +1,16 @@
+Data: 2022-09-28 - Hora: 14:45:17 - Rota: /
+Data: 2022-09-28 - Hora: 14:46:32 - Rota: /
+Data: 2022-09-28 - Hora: 14:46:32 - Rota: /favicon.ico
+Data: 2022-09-28 - Hora: 14:46:34 - Rota: /
+Data: 2022-09-28 - Hora: 14:46:35 - Rota: /produtos
+Data: 2022-09-28 - Hora: 14:46:36 - Rota: /contato
+Data: 2022-09-28 - Hora: 14:46:37 - Rota: /minhaConta
+Data: 2022-09-28 - Hora: 14:46:38 - Rota: /cadastro
+Data: 2022-09-28 - Hora: 15:02:23 - Rota: /minhaConta
+Data: 2022-09-28 - Hora: 15:02:24 - Rota: /cadastro
+Data: 2022-09-28 - Hora: 15:13:58 - Rota: /cadastro
+Data: 2022-09-28 - Hora: 15:14:10 - Rota: /minhaConta
+Data: 2022-09-28 - Hora: 15:14:12 - Rota: /
+Data: 2022-09-28 - Hora: 15:14:32 - Rota: /cadastro
+Data: 2022-09-28 - Hora: 16:55:58 - Rota: /cadastro
+Data: 2022-09-28 - Hora: 16:55:58 - Rota: /favicon.ico

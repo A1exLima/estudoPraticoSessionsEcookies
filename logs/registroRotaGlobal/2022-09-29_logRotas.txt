@@ -1,0 +1,6 @@
+Data: 2022-09-29 - Hora: 22:55:52 - Rota: /cadastro
+Data: 2022-09-29 - Hora: 22:55:54 - Rota: /
+Data: 2022-09-29 - Hora: 22:55:55 - Rota: /produtos
+Data: 2022-09-29 - Hora: 22:55:56 - Rota: /contato
+Data: 2022-09-29 - Hora: 22:55:57 - Rota: /minhaConta
+Data: 2022-09-29 - Hora: 22:55:59 - Rota: /cadastro
