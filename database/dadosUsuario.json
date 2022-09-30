@@ -2,31 +2,25 @@
     {
         "nome": "Alex da Silva Lima",
         "email": "asda@me.com",
-        "senha": "123456",
-        "imagemUsuario": "/images/profileUser/imagemUsuario_1663618096335.jpg"
-    },
-    {
-        "nome": "Alex da Silva Lima",
-        "email": "asda@me.com",
-        "senha": "1234567890",
-        "imagemUsuario": "/images/profileUser/imagemUsuario_1663645891953.jpeg"
+        "senha": "$2b$12$eZCurpkbqEPGYoMpIWm34ul/QIxN1ql8D0VKeDn5LSJYE2VlzlJ0G",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664554114552.png"
     },
     {
         "nome": "Andressa da Silva Lima",
         "email": "andressa@me.com",
-        "senha": "123456",
-        "imagemUsuario": "/images/profileUser/imagemUsuario_1664378038224.jpeg"
+        "senha": "$2b$12$.DbTsi9K1TeyIdNF1zzEOOA/80OZQrx.P6jT/IoUwF2Ct8AAQKavm",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664554234498.jpg"
     },
     {
-        "nome": "Joao de Paula",
-        "email": "joao@me.com",
-        "senha": "$2b$12$mhEs5QFNb07Bjd6GVpGog.pJhDfolxGxPlYwXrVQJp0odCy8HI6ae",
-        "imagemUsuario": "/images/profileUser/imagemUsuario_1664552314195.jpg"
+        "nome": "Jonas Henrrique",
+        "email": "jonas.herique@email.com",
+        "senha": "$2b$12$Whztb0cRBqbwA/QusmJjfeqXZK3wNo0UgGvPbJfwAx7I9uWuG4xrS",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664554295481.jpg"
     },
     {
         "nome": "Maria helena",
         "email": "maria@me.com",
-        "senha": "$2b$12$JJQFZzDV2kuEnBkX39OkueD5ErX3yEnjq9MyUseN84R3vrR0g7DvW",
-        "imagemUsuario": "/images/profileUser/imagemUsuario_1664552478560.jpg"
+        "senha": "$2b$12$HWjezyBfQpa0uSNJhkU5KeRNYpNihw2AcalndboI8uNDdv89mD5tW",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664554329581.jpg"
     }
 ]

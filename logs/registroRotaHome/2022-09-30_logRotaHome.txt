@@ -1,0 +1,7 @@
+Data: 2022-09-30 - Hora: 15:54:30 - Rota: /
+Data: 2022-09-30 - Hora: 15:54:36 - Rota: /
+Data: 2022-09-30 - Hora: 15:59:39 - Rota: /
+Data: 2022-09-30 - Hora: 16:00:21 - Rota: /
+Data: 2022-09-30 - Hora: 16:00:21 - Rota: /
+Data: 2022-09-30 - Hora: 16:00:22 - Rota: /
+Data: 2022-09-30 - Hora: 16:06:09 - Rota: /

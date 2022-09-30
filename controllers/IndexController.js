@@ -60,6 +60,10 @@ module.exports ={
                 // Busca a senha nao criptografada no objeto literal dados e executa o hash de criptografia
                 let senhaCrypt = bcrypt.hashSync(dados.senha, 12);
 
+                let check = bcrypt.compareSync(dados.senha, senhaCrypt);
+
+                console.log(check);
+
                 //Salva a senha criptografada na posicao senha do objeto literal dados
                 dados.senha = senhaCrypt;
 
@@ -71,9 +75,16 @@ module.exports ={
         
                 // conversao dos dados em tipo Json, e atraves da funcao nativa fs o salvamento desses dados dentro da database em formato json
                 fs.writeFileSync('./database/dadosUsuario.json', JSON.stringify(dadosUsuario, null, 4));
-                
-                //Redirecionamento para a página de confirmacao do novo usuario criado
+
+                if(check){
+                    //Redirecionamento para a página de confirmacao do novo usuario criado
                 res.render('confirmacaoCadastro.ejs', {nomeImg: dados.imagemUsuario, nomeUsuario: req.body.nome});
+                }else{
+                    res.send("Senha não confere");
+                }
+
+                
+                
             }
         }
     }
