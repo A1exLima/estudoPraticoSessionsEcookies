@@ -1,1 +1,8 @@
 Data: 2022-09-30 - Hora: 00:43:59 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:37:52 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:37:52 - Rota: /favicon.ico
+Data: 2022-09-30 - Hora: 15:38:12 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:38:34 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:40:58 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:41:18 - Rota: /cadastro
+Data: 2022-09-30 - Hora: 15:41:25 - Rota: /cadastro

@@ -16,5 +16,17 @@
         "email": "andressa@me.com",
         "senha": "123456",
         "imagemUsuario": "/images/profileUser/imagemUsuario_1664378038224.jpeg"
+    },
+    {
+        "nome": "Joao de Paula",
+        "email": "joao@me.com",
+        "senha": "$2b$12$mhEs5QFNb07Bjd6GVpGog.pJhDfolxGxPlYwXrVQJp0odCy8HI6ae",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664552314195.jpg"
+    },
+    {
+        "nome": "Maria helena",
+        "email": "maria@me.com",
+        "senha": "$2b$12$JJQFZzDV2kuEnBkX39OkueD5ErX3yEnjq9MyUseN84R3vrR0g7DvW",
+        "imagemUsuario": "/images/profileUser/imagemUsuario_1664552478560.jpg"
     }
 ]

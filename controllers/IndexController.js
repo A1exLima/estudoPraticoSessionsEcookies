@@ -5,7 +5,10 @@ const dadosUsuario = require("../database/dadosUsuario.json")
 const fs = require('fs');
 
 // Requisicao do Express Validator
-const {validationResult} = require('express-validator'); 
+const {validationResult} = require('express-validator');
+
+// Requisicao Bcrypt para execucao de Hash
+const bcrypt = require("bcrypt");
 
 // Objeto Literal ja pronto para exportacao de todos os controllers
 module.exports ={
@@ -54,10 +57,16 @@ module.exports ={
                 // Captura dos dados (NOME, E-MAIL E SENHA) enviados via Método Post através do req.body e salva em uma variavel
                 let dados = req.body;
 
+                // Busca a senha nao criptografada no objeto literal dados e executa o hash de criptografia
+                let senhaCrypt = bcrypt.hashSync(dados.senha, 12);
+
+                //Salva a senha criptografada na posicao senha do objeto literal dados
+                dados.senha = senhaCrypt;
+
                 // Inclui do nome do arquivo de imagem do usuário na variavel Dados
                 dados.imagemUsuario = `/images/profileUser/${req.file.filename}`;
 
-                // Inclusao do nome de usuario, e-mail, senha e local img na ultima posicao do array do banco de dados onde é guardado todos os usuarios e senhas
+                // Inclusao do nome de usuario, e-mail, senha(criptografada) e local img na ultima posicao do array do banco de dados onde é guardado todos os usuarios e senhas
                 dadosUsuario.push(dados);
         
                 // conversao dos dados em tipo Json, e atraves da funcao nativa fs o salvamento desses dados dentro da database em formato json
